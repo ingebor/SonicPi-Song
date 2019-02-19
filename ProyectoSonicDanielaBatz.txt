@@ -1,0 +1,43 @@
+#Universidad del Valle de Guatemala
+#Daniela Batz 19214
+2.times do
+  use_synth :prophet
+  play 38, pan: 1, amp: 1
+  sleep 0.30
+  play 50, pan: -1, amp: 1
+  sleep 0.30
+end
+2.times do
+  use_synth :prophet
+  play 35, pan: 1, amp: 1
+  sleep 0.30
+  play 37.5, pan: 0, amp: 1
+  sleep 0.30
+  play 39, pan: 0, amp: 1
+  sleep 0.30
+  play 40, pan: -1, amp: 1
+  sleep 0.30
+end
+2.times do
+  use_synth :prophet
+  play 35, pan: 1, amp: 1
+  sleep 0.30
+  play 37.5, pan: 0, amp: 1
+  sleep 0.30
+  play 39, pan: 0, amp: 1
+  sleep 0.30
+  play 40, pan: -1, amp: 1
+  sleep 0.30
+end
+2.times do
+  use_synth :prophet
+  play 38, pan: 1, amp: 1
+  sleep 0.30
+  play 50, pan: -1, amp: 1
+  sleep 0.30
+end
+sample :vinyl_rewind, amp: 5
+sleep 0.5
+2.times do
+  sample :bass_hard_c
+  sleep 0.2

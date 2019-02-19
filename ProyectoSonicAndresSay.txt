@@ -1,0 +1,52 @@
+#Universidad del Valle de Guatemala
+#Andres Say 19705
+2.times do
+  use_synth :saw
+  play 38, pan: -1, amp: 1
+  sleep 0.30
+  play 50, pan: 1, amp: 1
+  sleep 0.30
+end
+2.times do
+  use_synth :saw
+  play 38, pan: -1, amp: 1
+  sleep 0.30
+  play 50, pan: 1, amp: 1
+  sleep 0.30
+end
+2.times do
+  use_synth :saw
+  play 35, pan: -1, amp: 1
+  sleep 0.30
+  play 37.5, pan: 0, amp: 1
+  sleep 0.30
+  play 39, pan: 0, amp: 1
+  sleep 0.30
+  play 40, pan: 1, amp: 1
+  sleep 0.30
+end
+2.times do
+  use_synth :saw
+  play 38, pan: -1, amp: 1
+  sleep 0.30
+  play 50, pan: 1, amp: 1
+  sleep 0.30
+end
+3.times do
+  use_synth :saw
+  play 35, pan: -1, amp: 2
+  sleep 0.30
+  play 37.5, pan: 0, amp: 2
+  sleep 0.30
+  play 39, pan: 0, amp: 2
+  sleep 0.30
+  play 40, pan: 1, amp: 2
+  sleep 0.30
+end
+2.times do
+  use_synth :saw
+  play 38, pan: -1, amp: 1
+  sleep 0.30
+  play 50, pan: 1, amp: 1
+  sleep 0.30
+end

@@ -1,0 +1,57 @@
+#Universidad del Valle de Guatemala
+#Ingebor Rubio 19003
+2.times do
+  use_synth :fm
+  play 38, pan: -1, amp: 1
+  sleep 0.30
+  play 50, pan: 1, amp: 1
+  sleep 0.30
+end
+3.times do
+  use_synth :fm
+  play 38, pan: -1, amp: 1
+  sleep 0.30
+  play 50, pan: 1, amp: 1
+  sleep 0.30
+end
+2.times do
+  use_synth :fm
+  play 38, pan: -1, amp: 1
+  sleep 0.30
+  play 50, pan: 1, amp: 1
+  sleep 0.30
+  play 38, pan: -1, amp: 1
+  sleep 0.30
+  play 50, pan: 1, amp: 1
+  sleep 0.30
+  play 38, pan: -1, amp: 1
+  sleep 0.30
+  play 50, pan: 1, amp: 1
+  sleep 0.30
+  play 38, pan: -1, amp: 1
+  sleep 0.30
+  play 50, pan: 1, amp: 1
+  en
+  2.times do
+    use_synth :fm
+    play 38, pan: -1, amp: 1
+    sleep 0.30
+    play 50, pan: 1, amp: 1
+    sleep 0.30
+  end
+  use_synth :fm
+play 38, pan: -1, amp: 1
+sleep 0.30
+play 50, pan: 1, amp: 0.90
+sleep 0.30
+play 38, pan: -1, amp: 0.80
+sleep 0.30
+play 50, pan: 1, amp: 0.70
+sleep 0.30
+play 38, pan: -1, amp: 0.60
+sleep 0.30
+play 50, pan: 1, amp: 0.50
+sleep 0.30
+play 38, pan: -1, amp: 0.40
+sleep 0.30
+play 50, pan: 1, amp: 0.30

@@ -1,0 +1,34 @@
+#Universidad del Valle de Guatemala
+#Donaldo Ortiz 191073
+2.times do
+  use_synth :tb303
+  play 38, pan: -1, amp: 1
+  sleep 0.30
+  play 50, pan: 1, amp: 1
+  sleep 0.30
+end
+3.times do
+  use_synth :tb303
+  play 38, pan: -1, amp: 1
+  sleep 0.30
+  play 50, pan: 1, amp: 1
+  sleep 0.30
+end
+3.times do
+  use_synth :tb303
+  play 38, pan: -1, amp: 2
+  sleep 0.30
+  play 50, pan: 1, amp: 2
+  sleep 0.30
+  play 38, pan: -1, amp: 2
+  sleep 0.30
+  play 50, pan: 1, amp: 2
+  sleep 0.3
+end
+2.times do
+  use_synth :tb303
+  play 38, pan: -1, amp: 1
+  sleep 0.30
+  play 50, pan: 1, amp: 1
+  sleep 0.30
+end

@@ -1,0 +1,169 @@
+2.times do
+  use_synth :prophet
+  play 38, pan: 1, amp: 1
+  sleep 0.30
+  play 50, pan: -1, amp: 1
+  sleep 0.30
+  use_synth :saw
+  play 38, pan: -1, amp: 1
+  sleep 0.30
+  play 50, pan: 1, amp: 1
+  sleep 0.30
+  use_synth :tb303
+  play 38, pan: -1, amp: 1
+  sleep 0.30
+  play 50, pan: 1, amp: 1
+  sleep 0.30
+  use_synth :fm
+  play 38, pan: -1, amp: 1
+  sleep 0.30
+  play 50, pan: 1, amp: 1
+  sleep 0.30
+end
+sample :vinyl_rewind, amp: 5
+sleep 0.5
+2.times do
+  sample :bass_hard_c
+  sleep 0.2
+end
+3.times do
+  2.times do
+    play 38, pan: 1, amp: 1
+    sleep 0.30
+    play 50, pan: -1, amp: 1
+    sleep 0.30
+    use_synth :saw
+    play 38, pan: -1, amp: 1
+    sleep 0.30
+    play 50, pan: 1, amp: 1
+    sleep 0.30
+  end
+  2.times do
+    use_synth :prophet
+    play 35, pan: 1, amp: 1
+    sleep 0.30
+    play 37.5, pan: 0, amp: 1
+    sleep 0.30
+    play 39, pan: 0, amp: 1
+    sleep 0.30
+    play 40, pan: -1, amp: 1
+    sleep 0.30
+    use_synth :saw
+    play 35, pan: -1, amp: 1
+    sleep 0.30
+    play 37.5, pan: 0, amp: 1
+    sleep 0.30
+    play 39, pan: 0, amp: 1
+    sleep 0.30
+    play 40, pan: 1, amp: 1
+    sleep 0.30
+    2.times do
+      play 38, pan: 1, amp: 1
+      sleep 0.30
+      play 50, pan: -1, amp: 1
+      sleep 0.30
+      use_synth :saw
+      play 38, pan: -1, amp: 1
+      sleep 0.30
+      play 50, pan: 1, amp: 1
+      sleep 0.30
+    end
+  end
+  3.times do
+    use_synth :tb303
+    play 38, pan: -1, amp: 1
+    sleep 0.30
+    play 50, pan: 1, amp: 1
+    sleep 0.30
+    use_synth :fm
+    play 38, pan: -1, amp: 1
+    sleep 0.30
+    play 50, pan: 1, amp: 1
+    sleep 0.30
+  end
+end
+2.times do
+  use_synth :prophet
+  play 35, pan: 1, amp: 1
+  sleep 0.30
+  play 37.5, pan: 0, amp: 1
+  sleep 0.30
+  play 39, pan: 0, amp: 1
+  sleep 0.30
+  play 40, pan: -1, amp: 1
+  sleep 0.30
+  use_synth :fm
+  play 38, pan: -1, amp: 1
+  sleep 0.30
+  play 50, pan: 1, amp: 1
+  sleep 0.30
+  play 38, pan: -1, amp: 1
+  sleep 0.30
+  play 50, pan: 1, amp: 1
+  sleep 0.30
+  play 38, pan: -1, amp: 1
+  sleep 0.30
+  play 50, pan: 1, amp: 1
+  sleep 0.30
+  play 38, pan: -1, amp: 1
+  sleep 0.30
+  play 50, pan: 1, amp: 1
+end
+3.times do
+  use_synth :saw
+  play 35, pan: -1, amp: 2
+  sleep 0.30
+  play 37.5, pan: 0, amp: 2
+  sleep 0.30
+  play 39, pan: 0, amp: 2
+  sleep 0.30
+  play 40, pan: 1, amp: 2
+  sleep 0.30
+  use_synth :tb303
+  play 38, pan: -1, amp: 2
+  sleep 0.30
+  play 50, pan: 1, amp: 2
+  sleep 0.30
+  play 38, pan: -1, amp: 2
+  sleep 0.30
+  play 50, pan: 1, amp: 2
+  sleep 0.3
+end
+2.times do
+  use_synth :prophet
+  play 38, pan: 1, amp: 1
+  sleep 0.30
+  play 50, pan: -1, amp: 1
+  sleep 0.30
+  use_synth :saw
+  play 38, pan: -1, amp: 1
+  sleep 0.30
+  play 50, pan: 1, amp: 1
+  sleep 0.30
+  use_synth :tb303
+  play 38, pan: -1, amp: 1
+  sleep 0.30
+  play 50, pan: 1, amp: 1
+  sleep 0.30
+  use_synth :fm
+  play 38, pan: -1, amp: 1
+  sleep 0.30
+  play 50, pan: 1, amp: 1
+  sleep 0.30
+end
+use_synth :fm
+play 38, pan: -1, amp: 1
+sleep 0.30
+play 50, pan: 1, amp: 0.90
+sleep 0.30
+play 38, pan: -1, amp: 0.80
+sleep 0.30
+play 50, pan: 1, amp: 0.70
+sleep 0.30
+play 38, pan: -1, amp: 0.60
+sleep 0.30
+play 50, pan: 1, amp: 0.50
+sleep 0.30
+play 38, pan: -1, amp: 0.40
+sleep 0.30
+play 50, pan: 1, amp: 0.30
